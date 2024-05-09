@@ -3,6 +3,7 @@ import './globals.css';
 import Header from './Header';
 import Footer from './Footer';
 import { ThemeProvider } from '@/components/ThemeProvider';
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter ({subsets: ['latin']});
 
@@ -25,6 +26,7 @@ export default function RootLayout({children}) {
 
             <Header />
             {children}
+            <Analytics />
             <Footer />
           </div>
         </ThemeProvider>
