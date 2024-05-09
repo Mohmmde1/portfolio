@@ -56,7 +56,7 @@ export default function Component() {
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">About Me</h2>
                 <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                   I am a highly motivated and accomplished software engineer with a strong academic background. I have a
-                  CGPA of 3.85 and I am proficient in a wide range of technologies, including Django, Python, Next.js,
+                  CGPA of 3.85 and I am proficient in a wide range of technologies, including Django, Tailwind, Bootstrap, Python, Next.js,
                   Docker, Git, HTML, CSS, JavaScript, AI, and Machine Learning. I am eager to apply my knowledge and
                   skills in a real-world setting and I am deeply passionate about learning and continuously improving my
                   abilities. I am also highly adaptable and thrive in collaborative environments.
@@ -86,7 +86,7 @@ export default function Component() {
                     <div className="grid gap-1">
                       <h3 className="text-xl font-bold">Technical Skills</h3>
                       <p className="text-gray-500 dark:text-gray-400">
-                        Django, Python, Next.js, Docker, Git, HTML, CSS, JavaScript, AI, Machine Learning
+                        Django, Tailwind, Bootstrap, Python, Next.js, Docker, Git, HTML, CSS, JavaScript, AI, Machine Learning
                       </p>
                     </div>
                   </li>
@@ -107,7 +107,7 @@ export default function Component() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Technical Expertise</h2>
               <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                I am proficient in a wide range of technologies, including Django, Python, Next.js, Docker, Git, HTML,
+                I am proficient in a wide range of technologies, including Django, Tailwind, Bootstrap, Python, Next.js, Docker, Git, HTML,
                 CSS, JavaScript, AI, and Machine Learning. I am eager to apply my knowledge and skills in a real-world
                 setting.
               </p>
