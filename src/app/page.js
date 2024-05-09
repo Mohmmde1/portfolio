@@ -5,8 +5,6 @@
  */
 import Link from "next/link"
 import { CardTitle, CardDescription, CardHeader, CardContent, Card } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button"
 import Image from "next/image"
 
 export default function Component() {
@@ -122,7 +120,7 @@ export default function Component() {
                 View Projects
               </Link>
               <Link
-                className="inline-flex h-10 items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
+                className="inline-flex h-10 items-center justify-center rounded-md border  bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
                 href="#contact"
               >
                 Contact Me
@@ -212,6 +210,7 @@ export default function Component() {
             </div>
           </div>
         </section>
+
         <section className="w-full py-12 md:py-24 lg:py-32 border-t" id="contact">
           <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
             <div className="space-y-3">
@@ -224,6 +223,7 @@ export default function Component() {
             
           </div>
         </section>
+
       </main>
       
 
